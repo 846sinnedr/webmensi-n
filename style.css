@@ -1,0 +1,468 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+h2{
+    font-family: "Montserrat", sans-serif;
+}
+/* Estilos generales */
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    background-color: #fff8e8;
+}
+
+/* Logo en el encabezado */
+.logo-header {
+    width: 100px;
+    height: auto;
+}
+nav {
+    min-height: 100px;
+}
+.nav-link{
+color: #000000;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: left;
+    max-width: 300px;
+    z-index: 10;
+}
+/* HERO BANNER*/
+.hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+}
+
+.container-2 {
+background-color: #606A4A;
+
+}
+.container {
+background-color: #ffffff;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 300;
+padding-top: 50px;
+padding-bottom: 50px;
+align-items: center;
+}
+.container-reserva{
+    background-color: rgba(0, 0, 0,0.4);
+
+
+}
+/* Hero Section */
+.hero-slider {
+    margin-top: -20px;
+}
+
+/* Cards en la sección de productos */
+.card img {
+    height: 400px;
+    object-fit: cover;
+}
+.card-title {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+.card-text {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #ffffff;
+    opacity: 80%;
+}
+.card-1 {
+    background-color: #CDA587;
+}
+.card-2 {
+    background-color: #606A4A;
+}
+.card-3 {
+    background-color: #644335;
+}
+.card-4 {
+    background-color: #606A4A;
+}
+.card-5 {
+    background-color: #644335;
+}
+.card-6 {
+    background-color: #CDA587;
+}
+
+/* Logo */
+.logo {
+    width: 50px;
+    height: auto;
+}
+.catalogo{
+    background-color: #fff8e8;
+}
+#sobre-nosotros {
+    background-color: #606A4A; /* Color de fondo suave */
+}
+
+#sobre-nosotros h2 {
+    color: #606A4A; /* Color personalizado para el título */
+    margin-bottom: 1rem;
+}
+
+#sobre-nosotros p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+}
+#motivate-reservation h2 {
+    color: #606A4A;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+}
+
+#motivate-reservation p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+#motivate-reservation .btn {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+}
+#motivate-reservation {
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255); /* Color de texto blanco para visibilidad */
+    padding-top: 180px;
+    padding-bottom: 80px;
+}
+
+#motivate-reservation h2 {
+    color: rgb(255, 255, 255); /* Asegura que el título sea visible sobre el fondo */
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#motivate-reservation p {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+}
+
+.btn {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    background-color: #606A4A; /* Ajusta el color del botón */
+    border-color: #606A4A;
+}
+.btn:hover{
+    background-color: #644335; /* Ajusta el color del botón */
+    border-color: #644335;
+}
+
+/* Ajustes para móviles */
+@media (max-width: 768px) {
+    /* Centrar logo y opciones en pantallas pequeñas */
+    header .navbar-brand,
+    header .navbar-nav {
+        text-align: center;
+        display: block;
+    }
+    
+    /* Ajustar tamaño del logo */
+    .logo {
+        width: 40px;
+    }
+    
+    /* Espaciado en el carrusel */
+    #heroCarousel .carousel-item img {
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+/* Ajustes para pantallas pequeñas en el carrusel */
+#heroCarousel {
+    margin-bottom: 40px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Estilo para centrar el texto sobre la imagen */
+.header {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.header-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.header-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-content h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+/* Estilo del formulario de reserva */
+
+.reserva-section {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 2rem;
+    text-align: center;
+    background-color: #CDA587;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reserva-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.reserva-form .form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.reserva-form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.reserva-form input,
+.reserva-form select {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.reserva-form input:focus,
+.reserva-form select:focus {
+    border-color: #644335;
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #606A4A;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #644335;
+}
+/* Estilos generales para el formulario de contacto */
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e8;
+}
+
+/* Contenedor principal de la sección de contacto */
+.contacto-section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff8e8;
+}
+
+/* Grilla de dos columnas */
+.contacto-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+/* Estilo de la columna de datos de contacto */
+.contacto-info {
+
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contacto-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+    color: #333;
+}
+
+.contacto-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+/* Estilo de la columna del formulario */
+.contacto-form {
+    background-color: #CDA587;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contacto-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+/* Grupo de campos del formulario */
+.contacto-form .form-group {
+    margin-bottom: 1.2rem;
+}
+
+.contacto-form label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+    display: block;
+}
+
+/* Estilo de los campos de entrada */
+.contacto-form input,
+.contacto-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+}
+
+.contacto-form input:focus,
+.contacto-form textarea:focus {
+    border-color: #333;
+    outline: none;
+}
+
+/* Estilo del botón de envío */
+.submit-btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #606A4A;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #6443355;
+}
+
+/* Estilos generales */
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff8e8;
+}
+
+/* Estilo de la sección del equipo */
+.intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #606A4A;
+}
+.team h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #606A4A;
+}
+.team p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+/* Responsividad para dispositivos móviles */
+@media (max-width: 768px) {
+    .contacto-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Estilos para dispositivos pequeños */
+@media (max-width: 768px) {
+    .reserva-section {
+        padding: 1.5rem;
+    }
+}
+
+/* Ajuste para dispositivos pequeños */
+@media (max-width: 768px) {
+    .header-content h1 {
+        font-size: 2rem;
+   
+
+/* Ajustes para pantallas medianas */
+@media (min-width: 768px) and (max-width: 992px
+
